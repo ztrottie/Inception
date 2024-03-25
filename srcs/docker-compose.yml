@@ -1,0 +1,11 @@
+
+services:
+  nginx:
+    build:
+      context: ./requirements/nginx/
+      dockerfile: Dockerfile
+    
+    ports:
+      - 443:443
+
+    
